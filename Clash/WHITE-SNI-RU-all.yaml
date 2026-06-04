@@ -1,11 +1,25 @@
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
 # profile-update-interval: 1
-# Date/Time: 2026-06-04 / 12:34 (Moscow)
-# Количество: 0
+# Date/Time: 2026-06-04 / 14:10 (Moscow)
+# Количество: 1
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: warning
-proxies: []
+proxies:
+- name: 🇦🇪 United Arab Emirates | 🌐 [SNI-RU] ads.x5.ru
+  type: vless
+  server: "\x61\x65\x2e\x73\x33\x2d\x72\x75\x73\x2e\x72\x75"
+  port: 8443
+  uuid: "\x65\x37\x37\x65\x32\x63\x32\x31\x2d\x66\x34\x36\x39\x2d\x34\x34\x37\x34\x2d\x38\x66\x39\x34\x2d\x65\x32\x66\x32\x65\x36\x37\x66\x63\x62\x35\x38"
+  udp: true
+  encryption: none
+  tls: true
+  servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
+  client-fingerprint: edge
+  reality-opts:
+    public-key: x274vAATjQyRHChXL5coeXJB4ZuGx_-4Q_918Rw6lWA
+    short-id: 372c05b48fe83e5b
+  flow: xtls-rprx-vision
